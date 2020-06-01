@@ -44,3 +44,24 @@ h1{
 h3{
     font-family: 'Kaushan Script', cursive;
 }
+#output-container{
+    background-color: rgba(221, 201, 201, 0.2);
+    align-self: center;
+    width: 20vw;
+    height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0 20px 0 20px;
+    /* //text-overflow: ellipsis; */
+    /* word-break: break-all;
+     */
+    
+}
+#output{
+    text-align: start;
+    font-size: 1.4em;
+    padding: 0 8px 1em 8px;
+    max-width: 100%;
+    word-break: break-all;
+    font-family: 'Titillium Web', sans-serif; 
+}

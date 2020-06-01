@@ -12,7 +12,7 @@ class App extends React.Component {
     
     this.state = {
         input: 0,
-        output:'Answer Goes Here'
+        output:'Converted Output...'
     }
      this.numerals=["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
     this.numerics=[1000,900,500,400,100,90,50,40,10,9,5,4,1];
@@ -23,6 +23,9 @@ class App extends React.Component {
       console.log("its not a number sorry");
       return;
     }else{
+      if(value.length == 9){
+        alert("JUST A SIDE NOTE: this number is quite long already")
+      }
     this.setState({
       [property]: value
     })
@@ -66,9 +69,13 @@ class App extends React.Component {
           type="numbers"
            value={this.state.input ? this.state.input : ''}
           onChange={(value) => this.setInputValue('input',value)}
-          placeholder = "Number to Convert" 
+          placeholder = "Number to Convert"
+          maxLength="10" 
         />
-        <label id="output" className="convertedOut">{this.state.output}</label>
+        <div id="output-container">
+          <p id="output" > {this.state.output}</p>
+        </div>
+
         <AButton 
           text="CALCULATE"
           onClick={this.setOutputValue}

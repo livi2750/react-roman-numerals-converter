@@ -1,0 +1,23 @@
+.button{
+    width: 100px;
+    
+    border-radius: 5px;
+
+
+    /* box-shadow:inset 0px 0px 15px 3px #78797a; */
+	background-color:#ffffff;
+	border:1px solid #2d333b;
+	display:inline-block;
+	cursor:pointer;
+	color:#2b2b2b;
+
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px .4px 0px #5b5d64;
+}
+
+.button:hover{
+    background-color:#3a3a3a;
+    color:#fff;
+    border:1px solid #ffffff;
+}
