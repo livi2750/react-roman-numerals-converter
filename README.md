@@ -27,6 +27,6 @@ CXXIII
 ## Visuals
 ![](src/shared/assets/Images/ss.jpg)
 
-###Note:
+### Note:
 * App.js - earlier version with no redux
 * App_f.js - version which uses redux for status monitoring
