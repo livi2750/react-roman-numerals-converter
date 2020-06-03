@@ -21,3 +21,7 @@ create in react a roman numerals converter
 
 *OUTPUT:*
 CXXIII
+
+
+## Visuals
+![](src/shared/assets/Images/ss.jpg)
