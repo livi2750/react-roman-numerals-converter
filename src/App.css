@@ -10,7 +10,7 @@ font-family: 'Titillium Web', sans-serif;
 .app{
     border: 5px white solid;
     width: 50vh;
-    height: 50vh;
+    height: 55vh;
     border-radius: 20px 0 20px 0;
     text-align: center;
     display: flex;
@@ -64,4 +64,14 @@ h3{
     max-width: 100%;
     word-break: break-all;
     font-family: 'Titillium Web', sans-serif; 
+}
+
+#status-container{
+
+}
+
+#status-message{
+    font-family: 'Philosopher', sans-serif;
+    z-index: 2;
+    float: initial;
 }

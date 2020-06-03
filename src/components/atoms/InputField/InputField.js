@@ -5,6 +5,7 @@ function InputField(props) {
     return (
         <div className="inputField" > 
             <input 
+                id={props.id}
                 className="input"
                 type={props.type}
                 placeholder={props.placeholder}

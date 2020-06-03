@@ -7,6 +7,7 @@ import AButton from './components/atoms/AButton/AButton';
 
 class App extends React.Component {
 
+  
   constructor(props){
     super(props);
     
@@ -23,7 +24,7 @@ class App extends React.Component {
       console.log("its not a number sorry");
       return;
     }else{
-      if(value.length == 9){
+      if(value.length === 9){
         alert("JUST A SIDE NOTE: this number is quite long already")
       }
     this.setState({
