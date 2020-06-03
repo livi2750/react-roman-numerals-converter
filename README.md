@@ -6,8 +6,9 @@ create in react a roman numerals converter
 
 ### Status:
  * able to convert - done
- * styled - 50%
- * complete - 70%
+ * styled - 90%
+ * complete - 100%
+ * working - YES!
 
 ### challenge:
 * -- implement redux
@@ -25,3 +26,7 @@ CXXIII
 
 ## Visuals
 ![](src/shared/assets/Images/ss.jpg)
+
+##Note:
+App.js - earlier version with no redux
+App_f.js - version which uses redux for status monitoring
